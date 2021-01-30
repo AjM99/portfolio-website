@@ -1,0 +1,48 @@
+/* rather than typing all the code over again we just create a utitliy and use the name again
+this is like functions
+*/
+
+/*wherever u mention design1 all feactures of it will be shown*/
+.Design1{
+    display:flex;
+}
+.Design2{
+    align-items:center;
+    justify-content:space-between;
+
+}
+.button
+{
+    padding: 0.7rem 1.9rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border:2px solid transparent;
+    outline-color: black;
+    cursor:pointer;
+}
+.button:hover
+{
+    background:transparent;
+    border-color:var(--primary);
+    color:var(--primary);
+}
+
+.button2
+{
+    background:var(--secondary);
+    
+}
+
+.button2:hover
+{
+    background:transparent;
+    border-color:var(--primary);
+    color:var(--primary);           /*this is for changing  text  color after hover*/
+    
+}
+.paragraph
+{
+    margin-top: 0.5rem;
+    margin-bottom:3rem;
+    line-height: 1.9;
+}

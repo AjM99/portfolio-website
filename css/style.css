@@ -1,0 +1,130 @@
+/* if u want to edit a perticular class come here*/
+@import 'utilities.css';
+
+/* root has all colors I used*/
+:root
+{                 
+    --primary:#3740e9;
+    --secondary:#008040;
+    --backColorDark:#021a30;
+    --textWhite: #ffffff;
+    --textGray:#cccccc;
+    --backcolorLight:#f2f2f2;
+    
+
+}
+body
+{
+    font-family: 'Poppins',sans-serif;
+}
+*{
+    padding:0;
+    margin:0;
+    margin-top: -0.5rem;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+}
+
+/* this header is for  background color design*/
+header
+{
+    background: var(--backColorDark);
+    height: 750px;
+    clip-path:polygon(0 0,100% 0,100% 100%,60% 90%, 0 100%);
+}
+
+.container
+{
+    max-width:1152px;
+    padding:0 15px;
+    margin:0 auto
+}
+/* this header is for  text design (left i.e home about me...)*/
+header nav .left a{
+    color:var(--textWhite);
+    text-decoration: none;
+    margin-right: 2rem;
+    transition: all.3s ease;
+}
+
+header nav .left a:hover
+{
+    color:var(--primary)
+}
+
+header nav
+{
+    padding:2rem 0;
+}
+
+header nav .Potfolio
+{
+    margin-right:3rem;
+}
+
+
+.Me .leftImg img
+{
+    width:400px;
+    margin-right: 5rem;
+   
+    
+}
+.Me .rightText
+{
+    color:var(--textWhite);
+    margin-top: -7rem;
+}
+.Me .rightText h1
+{
+    font-size:3rem;
+    color:#008040;
+    margin-bottom: 0.5rem;
+}
+.Me .rightText h2
+{
+    font-size: 1.8rem;
+    font-weight: 100;   
+}
+.Me .rightText h2 span
+{
+    color:var(--secondary)
+}
+
+
+
+
+section
+{
+    height: 500px;
+}
+.about_me
+{
+    margin-top: 1rem;
+}
+.about_me .leftImg2 img
+{
+    width: 300px;
+   
+}
+.about_me .rightText2
+{
+    margin-left: 5rem;
+}
+.about_me .rightText2 h1
+{
+    font-size: 2rem;
+}
+.about_me .rightText2 h1 span
+{
+    color:#00e600
+}
+.about_me .rightText2 h2
+{
+    margin-top: 0rem;
+    font-weight: 100;
+}
+.about_me .social_media a img
+{
+    width: 50px;
+}
