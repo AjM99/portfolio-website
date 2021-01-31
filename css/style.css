@@ -61,6 +61,11 @@ header nav .Potfolio
 {
     margin-right:3rem;
 }
+.navTitle
+{
+    margin-left: 2rem;
+}
+
 
 
 .Me .leftImg img
@@ -127,4 +132,21 @@ section
 .about_me .social_media a img
 {
     width: 50px;
+}
+
+
+.my_skills  h1
+{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.my_skills  h1 span
+{
+    color:#00e600
+}
+.my_skills p
+{
+    text-align:center;
+    margin-bottom: 4rem;
 }
