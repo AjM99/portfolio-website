@@ -140,6 +140,7 @@ section
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1rem;
+    margin-top: 5rem;
 }
 .my_skills  h1 span
 {
@@ -149,4 +150,36 @@ section
 {
     text-align:center;
     margin-bottom: 4rem;
+}
+
+
+
+.card_wrapper .card_wrapper
+{
+    width:350px;
+    height:250px;
+    margin:auto;
+    perspective: 1000;
+    cursor: pointer;
+}
+.card_wrapper .inner_box
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+.card_wrapper .card_fornt, .card_back
+{
+    position:absolute;
+    widows: 100px;
+    height: 100px;
+    backface-visibility:10px;
+    border-radius: 10px;
+}
+.card_fornt
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(articleph2.jpg);
 }
