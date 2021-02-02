@@ -149,37 +149,32 @@ section
 .my_skills p
 {
     text-align:center;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
+
 }
-
-
-
-.card_wrapper .card_wrapper
-{
-    width:350px;
-    height:250px;
-    margin:auto;
-    perspective: 1000;
-    cursor: pointer;
-}
-.card_wrapper .inner_box
+.my_skills .middle
 {
     position: relative;
+    top:50%;
+    left:30%;
+    transform: translate(-49%,-240%);
+}
+.my_skills .card
+{
+    cursor: pointer;
+    width: 500px;
+    height: 400px;
+}
+.card-back, .card-front
+{
     width: 100%;
     height: 100%;
-    text-align: center;
-    border-radius: 10px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    
+    
 }
-.card_wrapper .card_fornt, .card_back
+.my_skills .card-back
 {
-    position:absolute;
-    widows: 100px;
-    height: 100px;
-    backface-visibility:10px;
-    border-radius: 10px;
-}
-.card_fornt
-{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-    url(articleph2.jpg);
+    background:var(--textGray) ;
 }
