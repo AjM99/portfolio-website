@@ -65,9 +65,12 @@ header nav .Potfolio
 {
     margin-left: 2rem;
 }
+header .logo
+{
+    margin-top: 1rem;
+}
 
-
-
+/* =================================================================================================================================================*/
 .Me .leftImg img
 {
     width:400px;
@@ -98,7 +101,7 @@ header nav .Potfolio
 
 
 
-
+/* ===========================================================================================================================================*/
 section
 {
     height: 500px;
@@ -129,18 +132,32 @@ section
     margin-top: 0rem;
     font-weight: 100;
 }
-.about_me .social_media a img
+.about_me .social_media .fab
 {
-    width: 50px;
+    font-size: 40px;
+    margin-left: 0.5rem;
+}
+.about_me .fab:hover
+{
+    color:#ff3300;
 }
 
 
+/* =============================================================================================================================================*/
+section.my_skills 
+{
+    background: #f2f2f2;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/balls.jpg);
+    height: 700px;
+    clip-path:polygon(0 0,100% 0,100% 100%,30% 90%, 0 100%);
+}
 .my_skills  h1
 {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1rem;
-    margin-top: 5rem;
+    margin-top: 5rem; 
+    color: white;
 }
 .my_skills  h1 span
 {
@@ -149,32 +166,93 @@ section
 .my_skills p
 {
     text-align:center;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+.my_skills .p3
+{
+    color: white;
+}
+.my_skills .card  h2
+{
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.my_skills .card-wrap
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:2rem ;
+}
+.my_skills .card-wrap .card
+{
+    background:white;
+    padding: 3rem,5rem;
+    position: relative;
+}
+.my_skills .card-wrap .card:hover
+{
+    background: #2f025c ;
+    color:white;
+    transition: all .3s;
+}
+.my_skills .card-wrap .fas
+{
+    color: #ff0000;
+    font-size: 100px;
+    position: absolute;
+    top:-2rem;                  /* this  and positon are the reason y icon is half above the card */
+    left:50%;
+    transform: translateX(-50%);
+}
+
+/* ===================================================================================*/
+
+.contact-me h1
+{
+    
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 5rem;  
+}
+.contact-me h1 span
+{
+    color:#00e600;
+}
+.contact-me p
+{
+    text-align: center;
+}
+.contact-me h2
+{
+    font-weight: 100;
+}
+.contact-me h3
+{
+    font-weight: 100; 
+    color: rgb(145, 142, 142);
+}
+.contact-me .card-wrap 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    position: relative;
 
 }
-.my_skills .middle
+.contact-me .card-wrap .card
 {
-    position: relative;
-    top:50%;
-    left:30%;
-    transform: translate(-49%,-240%);
+    text-align: center;
+    margin-top: 3rem;
 }
-.my_skills .card
+.contact-me .card-wrap .fas
 {
-    cursor: pointer;
-    width: 500px;
-    height: 400px;
+    font-size: 50px;
+    margin-bottom: 2rem;
 }
-.card-back, .card-front
+.contact-me .card-wrap .fas:hover
 {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    backface-visibility: hidden;
-    
-    
-}
-.my_skills .card-back
-{
-    background:var(--textGray) ;
+    color: rgb(226, 35, 35);
 }

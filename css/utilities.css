@@ -25,6 +25,7 @@ this is like functions
     background:transparent;
     border-color:var(--primary);
     color:var(--primary);
+    transition: all .3s ease;
 }
 
 .button2
@@ -38,11 +39,19 @@ this is like functions
     background:transparent;
     border-color:var(--primary);
     color:var(--primary);           /*this is for changing  text  color after hover*/
+    transition: all .3s ease;
     
 }
 .paragraph
 {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-bottom:3rem;
+    line-height: 1.9;
+}
+.pre-para
+{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    position: relative;
     line-height: 1.9;
 }
