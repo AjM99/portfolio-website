@@ -40,7 +40,7 @@ html
 /* this header is for  background color design*/
 header
 {
-    background: var(--backColorDark);
+    background:black;
     height: 750px;
     clip-path:polygon(0 0,100% 0,100% 100%,60% 90%, 0 100%);
 }
