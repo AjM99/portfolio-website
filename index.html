@@ -15,8 +15,11 @@
 
         <!-- =============================ANuj More section   =====================================================================-->
         <header>
+            <div id="particles-js"></div>
+            <script type="text/javaScript" src="particles.js"></script>
+            <script type="text/javascript" src="apps.js"></script>
             <div class="container">
-
+              
                 <nav class="Design1 Design2">
                     <div class="left Design1 Design2">
                         <div class="logo">
@@ -24,21 +27,32 @@
                         </div>
                         <div class="navTitle">
                             <a href="#">HOME</a>
-                            <a href="#">ABOUT ME</a>
-                            <a href="#">BLOG</a>
+                            <a href="#about!">ABOUT ME</a>
+                            <a href="#skills!">SKILLS</a>
                         </div>
 
                     </div>
                     <div class="right">
-                        <button class="button button2">Contact Me</button>
+                        <button class="button button2">
+                            <a href="#contact!">Contact Me</a>
+                            
+                        </button>
                     </div>
                 </nav>
+                <div class="ani">
+                   <!-- <ul class="box-area">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>-->
+               
+                    
 
-
-
+                
                 <div class='Me Design1 Design2'>
                     <div class='leftImg'>
-                        <img src="./images/man.png" alt="">
+                        <img src="./images/Me2.jpg" alt="">
                     </div>
                     <div class='rightText'>
                         <h1>Anuj More</h1>
@@ -53,11 +67,12 @@
                     </div>
                 </div>
             </div>
+        
         </header>
 
 
         <!-- ===================================== About me Section ==========================================================================      -->
-        <section class="about_me Design1 Design2">
+        <section  id="about!" class="about_me Design1 Design2">
             <div class="container Design1 ">
                 <div class="leftImg2">
                     <img src="./images/man-2.png">
@@ -71,10 +86,10 @@
                         You can follow me on..
                     </p>
                     <div class="social_media">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/anuj_more_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/AnujMor18925184" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/AjM99" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/anuj-more-b20424190/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -82,7 +97,8 @@
 
 
         <!-- ========================================== Skills & card section ================================================================    -->
-        <section class="my_skills ">
+        <section id="skills!" class="my_skills ">
+            
             <div class="container">
                 <h1> My<span> Skills </span></h1>
                 <p class="p3 paragraph">Everything mentioned below,
@@ -111,7 +127,7 @@
         </section>
 
         <!-- ==========================Contact Me section ===================================-->
-        <section class="contact-me">
+        <section id="contact!" class="contact-me">
             <div class="container">
                 <h1>Contact <span>Me</span></h1>
                 <p class="paragraph">I take all my calls and mails seriously...that excludes spam calls!</p>
@@ -127,15 +143,19 @@
                         <h3>anuj.more10424@gmail.com</h3>
                     </div>
                 </div>
-                <div class="user-input">
-                    <input type="text " placeholder="Your Name">
-                    <input type="text " placeholder="Your email">
-                </div>
-                <div class="user-input2"> 
-                    <input type="text " placeholder="subject">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message">
-                </div>
-               
+                <form action="">
+                    <div class="user-input">
+                        <input type="text " placeholder="Your Name">
+                        <input type="text " placeholder="Your email">
+                    </div>
+                    <div class="user-input2">
+                        <input type="text " placeholder="subject">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <div>
+                        <button class=" button3 button "> send </button>
+                    </div>
+                </form>
             </div>
     </body>
 
