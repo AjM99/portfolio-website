@@ -32,6 +32,8 @@ this is like functions
 .button2
 {
     background:var(--secondary);
+    margin-right: 2rem;
+    margin-top: 2rem;
     
     
 }
