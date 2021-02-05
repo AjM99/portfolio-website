@@ -103,12 +103,43 @@ header .logo
     color:var(--textWhite);
     margin-left: 20rem;
 }
+.Me .rightText p
+{
+    text-align: left;
+    margin-right: 3rem;
+}
 .Me .rightText h1
 {
-    font-size:3rem;
+    font-size:4rem;
+    position: relative;
     color:#008040;
     margin-bottom: 0.5rem;
+    -webkit-text-stroke: 0.3vw  #008040;
 }
+.Me .rightText h1::before
+{
+    content: attr(data-text);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    color:  #031057;
+    -webkit-text-stroke: 0vw #008040 ;
+    border-right: 5px solid #031057;
+    overflow:hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
+
 .Me .rightText h2
 {
     font-size: 1.8rem;
@@ -223,7 +254,7 @@ section:before
 }
 .my_skills .card-wrap .card:hover
 {
-    background: #2f025c ;
+    background: #10024e ;
     color:white;
     transition: all .3s;
 }
@@ -239,7 +270,7 @@ section:before
 }
 .my_skills .card-wrap .fas:hover
 {
-    color: blue;
+    color: #008040;
     transform: rotate(45deg);
 }
 
