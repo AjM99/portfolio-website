@@ -39,16 +39,14 @@ html
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/stars2.jpg);
     height: 750px;
     /*clip-path:polygon(0 0,100% 0,100% 100%,60% 90%, 0 100%);*/
-
 }
+
 
 .container
 {
     max-width:1152px;
     padding:0 15px;
     margin:0 auto;
-
-
 }
 /* this header is for  text design (left i.e home about me...)*/
 header nav .left a{
@@ -88,7 +86,7 @@ header .logo
 }
 
 
-/* =================================================================================================================================================*/
+/* =========================== ANuj MOre======================================================================================================================*/
 .Me .leftImg img
 {
     width:400px;
@@ -155,7 +153,7 @@ header .logo
 /* ===========================================================================================================================================*/
 section
 {
-    height: 500px;
+    height: 700px;
 }
 .about_me
 {
@@ -164,11 +162,15 @@ section
 .about_me .leftImg2 img
 {
     width: 300px;
-   
+    margin-top: -15rem;
+    margin-left: 9rem;
+    
 }
 .about_me .rightText2
 {
-    margin-left: 5rem;
+    margin-left: 33rem;
+    margin-top: -25rem;
+    
 }
 .about_me .rightText2 h1
 {
@@ -191,6 +193,17 @@ section
 .about_me .fab:hover
 {
     color:#ff3300;
+}
+#particles2-js
+{
+    height: 100%; 
+    height: 700px;
+    width: 100%;
+}
+.for-particle2
+{
+    position: absolute;
+    padding: 1rem;
 }
 
 
@@ -244,6 +257,7 @@ section:before
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap:2rem ;
+    height: 200px;
 }
 .my_skills .card-wrap .card
 {
