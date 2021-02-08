@@ -19,6 +19,8 @@ this is like functions
     border:2px solid transparent;
     outline-color: black;
     cursor:pointer;
+    border-radius: 40px;
+    padding:1rem ;
     
 }
 .button:hover

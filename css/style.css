@@ -47,6 +47,7 @@ html
     max-width:1152px;
     padding:0 15px;
     margin:0 auto;
+    
 }
 /* this header is for  text design (left i.e home about me...)*/
 header nav .left a{
@@ -259,6 +260,12 @@ section:before
     grid-column-gap:2rem ;
     height: 200px;
 }
+@media(max-width:600px){
+.card
+{
+    display: block;
+}
+}
 .my_skills .card-wrap .card
 {
     background:white;
@@ -288,11 +295,95 @@ section:before
     transform: rotate(45deg);
 }
 
-/* ===================================================================================*/
+/*====================================================languages======================================================================*/
+section.lang
+{
+    height: 600px;
+}
+.lang .Text
+{
+    text-align: center;
+    margin-bottom: 15rem;
+    
+}
+.lang  h1
+{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem; 
+    color:black;
+    padding: auto;
+}
+.lang  h1 span
+{
+    color:#00e600
+}
+
+.lang .graphDesign
+{
+    margin-top: 10rem;
+    box-sizing: border-box;
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding:20px;
+    background: rgb(196, 192, 192);   
+}
+
+.lang .graph
+{
+  margin-bottom: 1rem;
+  color: white;
+ letter-spacing: 1px;
+}
+.lang .graph p:nth-child(2)
+{
+    float: right;
+    position: relative;
+    top: -1rem;
+}
+.lang .graph .graph2                                     /* this is the code to make green graph*/
+{
+    background:var(--secondary) ;
+    margin-top: 1rem;
+    padding: 1px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border:1px solid black
+}
+.lang .graph .graph2-lvl
+{
+    background:#00e600 ;
+    width: 100%;
+    height: 10px;
+    border-radius: 7px;
+    margin-top: 0.001rem;
+    
+    
+}
+
+
+#particles3-js
+{
+    height: 100%; 
+    height: 200px;
+    width: 100%;
+}
+.for-particle3
+{
+    position: relative;
+    padding: 1rem;
+}
+
+/* =======================================================================================================================================*/
 
 section.contact-me
 {
-    height: 850px;
+    height: 1000px;
+    background: rgb(238, 236, 236);
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/stars2.jpg);
 }
 .contact-me h1
 {
@@ -300,7 +391,8 @@ section.contact-me
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1rem;
-    margin-top: 5rem;  
+    margin-top: 9rem;  
+    color: white;
 }
 .contact-me h1 span
 {
@@ -309,10 +401,12 @@ section.contact-me
 .contact-me p
 {
     text-align: center;
+    color: white;
 }
 .contact-me h2
 {
     font-weight: 100;
+    color: #ffffff;
 }
 .contact-me h3
 {
@@ -336,6 +430,7 @@ section.contact-me
 {
     font-size: 50px;
     margin-bottom: 2rem;
+    color: #ffffff;
 }
 .contact-me .card-wrap .fas:hover
 {
@@ -376,6 +471,8 @@ section.contact-me
     margin-top: 1rem;
     color: white ;
     background:#2f025c ;
+    border-radius: 40px;
+    width: 5rem;
 }
 .contact-me .button3:hover
 {
@@ -383,8 +480,23 @@ section.contact-me
     border-color:#2f025c ;
     transition: all .3s ease;
     background: white;
+    
 }
-
+.contact-me .ending
+{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.contact-me .ending2
+{
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    font-family: bold;
+    letter-spacing: 1rem;
+}
 
 /*
 .box-area
