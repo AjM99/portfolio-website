@@ -298,12 +298,12 @@ section:before
 /*====================================================languages======================================================================*/
 section.lang
 {
-    height: 600px;
+    height: 700px;
 }
 .lang .Text
 {
     text-align: center;
-    margin-bottom: 15rem;
+    margin-bottom: 20rem;
     
 }
 .lang  h1
@@ -315,6 +315,7 @@ section.lang
     color:black;
     padding: auto;
 }
+
 .lang  h1 span
 {
     color:#00e600
@@ -322,7 +323,7 @@ section.lang
 
 .lang .graphDesign
 {
-    margin-top: 10rem;
+    margin-top: 1rem;
     box-sizing: border-box;
     position: relative;
     width: 80%;
@@ -330,6 +331,7 @@ section.lang
     transform: translate(-50%,-50%);
     padding:20px;
     background: rgb(196, 192, 192);   
+    
 }
 
 .lang .graph
@@ -385,6 +387,11 @@ section.contact-me
     background: rgb(238, 236, 236);
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/stars2.jpg);
 }
+.contact-me .Text2
+{
+    text-align: center;
+    margin-top: 20rem;
+}
 .contact-me h1
 {
     
@@ -402,6 +409,7 @@ section.contact-me
 {
     text-align: center;
     color: white;
+    margin-bottom: -1rem;
 }
 .contact-me h2
 {
@@ -416,9 +424,8 @@ section.contact-me
 }
 .contact-me .card-wrap 
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    position: relative;
+    display: grid; 
+    align-items: center;
 
 }
 .contact-me .card-wrap .card
@@ -429,7 +436,7 @@ section.contact-me
 .contact-me .card-wrap .fas
 {
     font-size: 50px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: #ffffff;
 }
 .contact-me .card-wrap .fas:hover
