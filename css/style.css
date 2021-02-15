@@ -20,7 +20,7 @@ body
     padding: 0;
     height: 100vh;
 }
-
+}
 html
 {
     scroll-behavior: smooth;
@@ -81,10 +81,7 @@ header nav .Potfolio
     margin-left: 2rem;
     margin-top: 1rem;
 }
-header .logo
-{
-    margin-top: 1rem;
-}
+
 
 
 /* =========================== ANuj MOre======================================================================================================================*/
@@ -298,7 +295,7 @@ section:before
 /*====================================================languages======================================================================*/
 section.lang
 {
-    height: 700px;
+    height: 600px;
 }
 .lang .Text
 {
@@ -379,18 +376,66 @@ section.lang
     padding: 1rem;
 }
 
+/*=========================================== Work exp ===================================================================================*/
+section.work
+{
+    height: 1000px;
+    background: cornsilk;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/stars2.jpg);
+    clip-path:polygon(0 0,80% -20%,100% 0,100% 100%,30% 90%, 0 100%);
+}
+.work .Text
+{
+    margin-top: 10rem;   
+}
+.work h1
+{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 18rem;  
+    color: white;
+}
+.work p
+{
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+.work h1 span
+{
+    color:#00e600;
+}
+.work .Text2 h2
+{
+    color: white;
+    text-align:left;
+    margin-top: 5rem;
+   margin-bottom: 1.7rem; 
+}
+.work .Text2 p
+{
+    color: white;
+    text-align:left;
+    margin-bottom: 1rem;
+    
+}
+.work .Text2 p span
+{
+    color:#00e600;
+}   
 /* =======================================================================================================================================*/
 
 section.contact-me
 {
     height: 1000px;
     background: rgb(238, 236, 236);
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/stars2.jpg);
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/stars2.jpg);
 }
 .contact-me .Text2
 {
     text-align: center;
-    margin-top: 20rem;
+    
 }
 .contact-me h1
 {
