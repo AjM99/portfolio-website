@@ -191,6 +191,7 @@ section
 .about_me .fab:hover
 {
     color:#ff3300;
+    font-size: 50px;
 }
 #particles2-js
 {
