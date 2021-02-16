@@ -194,8 +194,7 @@ section
 }
 #particles2-js
 {
-    height: 100%; 
-    height: 700px;
+    height: 100%;   
     width: 100%;
 }
 .for-particle2
@@ -300,7 +299,7 @@ section.lang
 .lang .Text
 {
     text-align: center;
-    margin-bottom: 20rem;
+    margin-bottom: 18rem;
     
 }
 .lang  h1
@@ -401,6 +400,11 @@ section.work
     text-align: center;
     color: white;
     margin-bottom: 1rem;
+    
+}
+.work .para
+{
+    margin-left: 18rem;
 }
 .work h1 span
 {
@@ -424,11 +428,78 @@ section.work
 {
     color:#00e600;
 }   
+/*==================================================Project ==============================================================================*/
+section.projects
+{
+    height: 1600px;
+}
+.projects .Text
+{
+    margin-top: 1rem;
+    margin-bottom :5rem; ;
+      
+}
+.projects h1
+{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem; 
+    
+}
+.projects .para
+{
+    text-align: center;
+    margin-bottom: 6rem;
+   
+}
+.projects h1 span
+{
+    color:#00e600;
+}
+.projects .image
+{
+    width: 100%;
+}
+.projects .card
+{
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 3rem;
+    background: rgb(208, 207, 209);
+
+}
+.projects .card p
+{
+    margin-bottom: 1rem;
+}
+.projects .card-body
+{
+    margin-left: -7rem;
+    margin-top: 1rem; 
+}
+.projects .card-title
+{
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
+.projects .fab
+{
+    color: white;
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.projects .fab:hover
+{
+    color: var(--backColorDark);
+    font-size: 35px;
+}
 /* =======================================================================================================================================*/
 
 section.contact-me
 {
-    height: 1000px;
+    height: 900px;
     background: rgb(238, 236, 236);
     background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/stars2.jpg);
 }
